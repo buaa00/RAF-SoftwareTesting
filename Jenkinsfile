@@ -4,18 +4,24 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building...'
                 sh 'cd App/app && mvn clean install -DskipTests'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Testing../'
+                sh 'cd App/app && mvn test'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Deploying...'
+            }
+        }
+        stage('Merging') {
+            steps {
+                echo 'Deploying...'
             }
         }
     }
