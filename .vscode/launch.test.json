@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "app",
+                "projectName": "app",
+                "workingDirectory": "c:\\Users\\user\\Documents\\GitHub\\SoftwareTesting\\App\\app",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "app",
+                "projectName": "app",
+                "workingDirectory": "c:\\Users\\user\\Documents\\GitHub\\SoftwareTesting\\App\\app",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
