@@ -44,10 +44,6 @@ public class MachineService {
         if (availableMachines.size() == 0) 
             throw new InvalidArgumentValError("MachineSubTier", subTier.toString()); 
 
-        availableMachines = machineRepository.getByCount(availableMachines, gpuCount);
-        if (availableMachines.size() == 0) 
-            throw new InvalidArgumentValError("GPUCount", gpuCount+""); 
-
         Machine machine = availableMachines.get(0);
         machine.validateGpuTier(gpuTier, gpuCount);
 
