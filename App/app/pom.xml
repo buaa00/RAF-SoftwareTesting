@@ -34,7 +34,7 @@
         <snapshotRepository>
             <id>snapshots</id>
             <name>66519539453d-snapshots</name>
-            <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+            <url>http://artifactory:8081/artifactory/libs-snapshot-local</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
