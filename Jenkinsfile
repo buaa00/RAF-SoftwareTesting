@@ -17,11 +17,12 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying...'
+                // sh 'cd App/app && mvn deploy -DskipTests'
             }
         }
-        stage('Merging') {
+        stage('Merge') {
             steps {
-                echo 'Deploying...'
+                echo 'Merging...'
             }
         }
     }
