@@ -125,9 +125,10 @@ public class MachineRepository  {
             machines.add(new T2MediumMachine());
             machines.add(new T2LargeMachine());
             machines.add(new G1LargeSingleMachine());
-            machines.add(new G2LargeDoubleMachine());
             machines.add(new G2LargeClusterMachine());
+            machines.add(new G2LargeDoubleMachine());
         }
+
         return machines;
     }
     
